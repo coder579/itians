@@ -23,11 +23,21 @@ main {
   flex: 1 0 auto;
 }
 
-.collapsible-header {
+.timetable-container .collapsible-header {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
   font-weight: bold;
+}
+
+.syllabus-container .collapsible-header {
+  text-transform: uppercase;
+}
+
+.syllabus-container .collapsible-header .material-icons {
+  -ms-transform: translate(0, -25%); /* IE 9 */
+  -webkit-transform: translate(0, -25%); /* Safari */
+  transform: translate(0, -25%);
 }
 
 .userView img {

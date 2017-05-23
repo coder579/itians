@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--some meta tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="theme-color" content="teal">
+
+    <title>Timetable</title>
+
+    <!--Including materialize css, stylesheet, material icons and a google font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+  </head>
+  <body>
+
+    <!--This is the preloader-->
+    <div id="loader">
+      <div class="progress">
+        <div class="indeterminate"></div>
+      </div>
+    </div>
+
+    <header>
+      <nav class="teal">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">ITians</a>
+          <a href="#" data-activates="mobile-nav-version" class="button-collapse"><i class="material-icons">menu</i></a>
+
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="/">Home</a></li>
+            <li><a href="timetable">Timetable</a></li>
+            <li class="active"><a href="syllabus">Syllabus</a></li>
+            <li><a href="notes">Notes</a></li>
+            <li><a href="downloads">Downloads</a></li>
+            <li><a href="contribute">Contribute</a></li>
+          </ul>
+
+          <ul class="side-nav" id="mobile-nav-version">
+            <li><div class="userView">
+              <img src="src/images/header.png">
+            </div></li>
+
+            <li><div class="divider"></div></li>
+
+            <li><a href="/"><i class="material-icons">home</i>Home</a></li>
+            <li><a href="timetable"><i class="material-icons">schedule</i>Timetable</a></li>
+            <li class="active"><a href="syllabus"><i class="material-icons">view_list</i>Syllabus</a></li>
+            <li><a href="notes"><i class="material-icons">library_books</i>Notes</a></li>
+            <li><a href="downloads"><i class="material-icons">file_download</i>Downloads</a></li>
+            <li><a href="contribute"><i class="material-icons">star_rate</i>Contribute</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container syllabus-container">
+
+        <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header truncate"><span class="badge"><i class="material-icons">print</i></span>ITC05: Mathematics-III</div>
+            <div class="collapsible-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          </li>
+          <li>
+            <div class="collapsible-header truncate"><span class="badge"><i class="material-icons">print</i></span>ITC06: Data Structure and Algorithm</div>
+            <div class="collapsible-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          </li>
+          <li>
+            <div class="collapsible-header truncate"><span class="badge"><i class="material-icons">print</i></span>ITC07: Digital Circuits and Systems</div>
+            <div class="collapsible-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          </li>
+          <li>
+            <div class="collapsible-header truncate"><span class="badge"><i class="material-icons">print</i></span>ITC08: Database Management System</div>
+            <div class="collapsible-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          </li>
+          <li>
+            <div class="collapsible-header truncate"><span class="badge"><i class="material-icons">print</i></span>ITC09: Computer Graphics</div>
+            <div class="collapsible-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          </li>
+        </ul>
+
+      </div>
+    </main>
+
+    <footer class="page-footer center teal lighten-2">
+      <div class="footer-copyright">
+          <div class="container">
+          Handcrafted with <i class="footer-icons material-icons">music_note</i> and &nbsp;<i class="footer-icons material-icons">laptop_chromebook</i>
+          </div>
+        </div>
+    </footer>
+
+    <!--Including jQuery, materialize css, and main script-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>

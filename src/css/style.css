@@ -28,7 +28,7 @@ main {
   flex: 1 0 auto;
 }
 
-.timetable-container .collapsible-header {
+.day-tab {
   text-align: center;
   text-transform: uppercase;
   color: #fff;

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="theme-color" content="teal">
 
-    <title>Timetable</title>
+    <title>Syllabus</title>
 
     <!--Including materialize css, stylesheet, material icons and a google font-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
@@ -60,26 +60,87 @@
     <main>
       <div class="container syllabus-container">
 
+        <!--Let me create PDFs first :P-->
+        <!--<div class="download-syllabus center">
+          <a class='dropdown-button btn' href='#' data-activates='dropdown-subject'>DOWNLOAD</a>
+
+          <ul id='dropdown-subject' class='dropdown-content'>
+            <li><a href="#!">COMPLETE</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">ITC05</a></li>
+            <li><a href="#!">ITC06</a></li>
+            <li><a href="#!">ITC07</a></li>
+            <li><a href="#!">ITC08</a></li>
+            <li><a href="#!">ITC09</a></li>
+          </ul>
+        </div>-->
+
         <ul class="collapsible" data-collapsible="accordion">
           <li>
-            <div class="collapsible-header truncate"><span class="badge"><i class="material-icons">print</i></span>ITC05: Mathematics-III</div>
-            <div class="collapsible-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            <div class="collapsible-header truncate">ITC05: Mathematics-III</div>
+            <div class="collapsible-body">
+              <h5>Mathematics-III</h5>
+              <h6>(3L-1T-0P)</h6>
+              <p><strong>Fourier Series &amp; Transforms:</strong> Periodic functions, Fourier series, Functions of any period p. Even and odd functions, Half range series, complex form of Fourier series, Harmonic analysis. Fourier transform and its properties, Fourier cosine and sine transforms and their properties, applications to PDE.</p>
+              <p><strong>Partial Differential Equations:</strong> Solution of first order equations- Lagrange, non linear first order, Charpit’s method, higher order linear equations with constant coefficients. Separation of variables, Solution of Heat, Wave and Laplace equations.</p>
+              <p><strong>Complex Variables:</strong> Functions of a complex variable, analytic functions, harmonic functions, Cauchy -Riemann equations (Cartesian and polar form). Linear fractional transformation, Conformal mapping, Mapping of elementary functions (exponential, trigonometric, hyperbolic and logarithm functions), Contour integration, Cauchy’s integral theorem and formula, Power series and its convergence, Taylor’s and Laurent series, zeroes, Singularities, Residue theorem, Evaluation of real integrals(around unit circle, no singularity on real line , and singularity on real line).</p>
+              <p><strong>Vector Calculus:</strong> Differentiation of a vector function, scalar and vector fields, Gradient, Divergence, Curl, line integral, independence of path, Green’s theorem and applications. Surface Integral, Stoke’s theorem and applications; Volume Integrals, Gauss Divergence theorem and applications</p>
+            </div>
           </li>
           <li>
-            <div class="collapsible-header truncate"><span class="badge"><i class="material-icons">print</i></span>ITC06: Data Structure and Algorithm</div>
-            <div class="collapsible-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            <div class="collapsible-header truncate">ITC06: Data Structure and Algorithm</div>
+            <div class="collapsible-body">
+              <h5>Data Structure and Algorithm</h5>
+              <h6>(3L-0T-2P)</h6>
+              <p><span class="underline">Arrays, Stacks and Queues</span>: Fundamentals and Representations, Applications of Arrays, Stacks and Queues <br>
+              <span class="underline">Sparse Matrices</span> <br>
+              <span class="underline">Linked lists</span>: Singly/Linear Linked lists, Linked Stacks and Queues, Doubly and Circular Linked Lists, Applications. <br>
+              <span class="underline">Trees</span>: Binary Trees, B-Trees, N-ary Trees, B+-Trees, Tree Traversals and Tries, Storage of Trees, Threaded trees, Trees Applications <br>
+              <span class="underline">Hashing. Heaps</span> <br>
+              <span class="underline">Graphs</span>: Types, Terminology and Representations, Graph Traversals, Applications of Graphs. <br>
+              <span class="underline">Searching and Sorting</span>: Sequential and Binary Searching, Search trees, Sorting Techniques.</p>
+            </div>
           </li>
           <li>
-            <div class="collapsible-header truncate"><span class="badge"><i class="material-icons">print</i></span>ITC07: Digital Circuits and Systems</div>
-            <div class="collapsible-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            <div class="collapsible-header truncate">ITC07: Digital Circuits and Systems</div>
+            <div class="collapsible-body">
+              <h5>Digital Circuits and Systems</h5>
+              <h6>(3L-0T-2P)</h6>
+              <p>Boolean Algebra, Venn diagram, switching function and minimization of switching functions with don’t care terms etc. (Karnaugh’s Map Method &amp; Tabulation Techniques)</p>
+              <p>Introduction Logic Gates, Logic Families TTL, Tristate Logic, ECL, CMOS and T<sup>2</sup>L Logic, Logic parameters etc.</p>
+              <p>Bistable, Monostable, Astable and Schmitt trigger circuit.</p>
+              <p>Gated memories, M/S flipflops, Shift Registers Serial &amp; Parallel Counters, Ring counters, Up Down counters.</p>
+              <p>Designing of combinational circuits like code converter, address, comparators, etc.</p>
+              <p>Introduction to semiconductor memories: ROM, PROM, EPROM, STATIC &amp; DYNAMIC RAM.</p>
+              <p>Introduction to Encoders, Decoders, Multiplexer, demultiplexer, Designing combinational circuits with multiplexers and other digital logic blocks, PROM.</p>
+              <p>Concept of Digital to Analog Conversion Ladder Networks, and Concept of Analog to Digital conversion: Dual slope method, V-F conversion, stair-case Ramp-method/counter method, successive approximation type of A/D converters etc.</p>
+              <p>Introduction to design of synchronous &amp; asynchronous sequential circuit flow table realization from verbal description, ASM charts, minimization of flow-table and concept of state assignments.</p>
+            </div>
           </li>
           <li>
-            <div class="collapsible-header truncate"><span class="badge"><i class="material-icons">print</i></span>ITC08: Database Management System</div>
-            <div class="collapsible-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            <div class="collapsible-header truncate">ITC08: Database Management System</div>
+            <div class="collapsible-body">
+              <h5>Database Management System</h5>
+              <h6>(3L-0T-2P)</h6>
+              <p><strong>Introduction to database systems:</strong> Overview, File Systems Vs. a DBMS, Advantages of DBMS, Levels of Abstraction, Data Independence, Data Models and their comparison (Hierarchical, Network, Relational Model).</p>
+              <p><strong>Relational Data models:</strong> Structure of Relational Database, Integrity Constraints over relations, Enforcing Integrity Constraints, Relational Algebra and Calculus, Introduction to SQL.</p>
+              <p><strong>Database Design:</strong> Top down approach (ER Model), Participation Constraints, Specialization, Generalization and Aggregation, Bottom up approach (Normalization), Normal Forms Based on Primary Keys, (1NF, 2NF, 3NF &amp; BCNF), Transformation of ER Schema to relational tables.</p>
+              <p><strong>Transactions and File system:</strong> Transactions, Concurrency Control and Database Recovery, Database Security Introduction to File System, File Organization, File Access Methods, File Storage Devices.</p>
+              <p><strong>Management Information system:</strong> Basic Architecture of MIS, Components of MIS –Reporting styles, frequency, targeted managerial level, software and Hardware. Targeted audience of MIS design and development of MIS for various functional areas: Marketing, finance, purchasing, production, distribution, human resource department, implementation aspects, implementation framework, basics, catalysts &amp; change agents.</p>
+            </div>
           </li>
           <li>
-            <div class="collapsible-header truncate"><span class="badge"><i class="material-icons">print</i></span>ITC09: Computer Graphics</div>
-            <div class="collapsible-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            <div class="collapsible-header truncate">ITC09: Computer Graphics</div>
+            <div class="collapsible-body">
+              <h5>Computer Graphics</h5>
+              <h6>(3L-0T-2P)</h6>
+              <p><strong>Introduction to computer graphics:</strong> Application areas of computer graphics, Output Devices, Graphical Display Devices, Raster scan Displays, Random scan Displays, Colour Monitors/Displays: mechanism and working principle with concepts like Right handed and left handed coordinate system (RHCS &amp; LHCS), resolution video mode, video memory, video adapter, and display processor, Graphical Printing Devices.</p>
+              <p><strong>Scan Conversion:</strong> Point generation: Representation of an image, Line – drawing: symmetric DDA, Simple DDA, Bresenham’s line algorithm, Circle Drawing: General methods, symmetric DDA, Bresenham’s circle algorithm, Ellipse – Drawing methods Polygon filling.</p>
+              <p><strong>Two Dimensional Transformations and Clipping:</strong> Geometric Transformation, Coordinate system transformation, Composite transformations and Homogeneous coordinates, Viewing transformations: world coordinate system (WCS), Screen coordinate system (SCS), Window, Viewport, Aspect ratio, Two – Dimensional Clipping, Point clipping and line clipping: Sutherland Cohen algorithm, Mid-point subdivision algorithm, Cyrus-beck algorithm and other methods for clipping line against rectangular and non – Polygon clipping : Sutherland –Hodgmann algorithm, Curve clipping and text clipping.</p>
+              <p><strong>3 Dimensional object representation:</strong> point, line polygon, curve and surfaces, 3-D Transformations: Translation, Rotation, Scaling, Mirror Reflection etc, Representation of 3 –D object on 2 – D screens, 3-D WCS, Parallel and perspective projection, perspective depth, Need of 3-D screen coordinate system.</p>
+              <p><strong>Hidden Surface Elimination and Curves &amp; Surfaces:</strong> Z-buffer, Scan line algo, Shape description requirements, Parametric curves, Beizer Curves, B- Spline methods.</p>
+              <p><strong>Illumination &amp; Shading:</strong> Reflection, Phong &amp; Gourond Models, Color Models: Achromatic light RGB, CMY, YIQ, HSV, and HLS color models, Rendering, Animation Techniques.</p>
+            </div>
           </li>
         </ul>
 

@@ -35,14 +35,12 @@ main {
   font-weight: bold;
 }
 
-.syllabus-container .collapsible-header {
-  text-transform: uppercase;
+.download-syllabus {
+  margin-bottom: 40px;
 }
 
-.syllabus-container .collapsible-header .material-icons {
-  -ms-transform: translate(0, -25%); /* IE 9 */
-  -webkit-transform: translate(0, -25%); /* Safari */
-  transform: translate(0, -25%);
+.syllabus-container .collapsible-header {
+  text-transform: uppercase;
 }
 
 .userView img {

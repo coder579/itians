@@ -1,6 +1,7 @@
 // remove preloader when page is loaded
 $(window).on("load", function() {
   $("#loader").delay(500).fadeOut("slow");
+  $('body').css("overflow", "visible");
 });
 
 // On timetable page, determine action when class is selected

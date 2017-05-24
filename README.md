@@ -5,6 +5,9 @@ This is our class website which we use to see our timetable and post notes. Last
 
 ## Understanding the code
 Do it yourself! (Just Kidding)  
+
+This site uses [Materialize CSS](http://materializecss.com)  
+
 For now, the code is pretty simple and has been commented. It is a nice place to start for absolute beginners. Still if you feel lost, contact me.
 
 Contact me [here](https://profile.itians.cf/admin).

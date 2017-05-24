@@ -13,6 +13,10 @@ body {
   overflow: hidden;
 }
 
+strong {
+  font-weight: bold;
+}
+
 @media screen and (min-width: 720px) {
   .brand-logo {
     margin-left: 10px;

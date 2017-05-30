@@ -1,5 +1,5 @@
 # ITians Website
-Thanks for visiting!  
+Visit [here](http://itians.cf)  
 
 This is our class website which we use to see our timetable and post notes. Last semester only I was managing the code but from this semester I have made it open source. Anybody from the class is encouraged to fork this repository, open issues and submit pull requests.
 

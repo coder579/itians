@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="theme-color" content="teal">
 
-    <title>Notes</title>
+    <title>Resource Portal for ITians</title>
 
-    <!--Including materialize css, stylesheet, material notes and a google font-->
+    <!--Including materialize css, stylesheet, material icons and a google font-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="stylesheet" href="src/css/style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+notes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
   </head>
   <body>
@@ -23,18 +23,58 @@
     <!--This is the preloader-->
     <div id="preloader">
     </div>
+    <div id="overlay" onclick="off()">
+      <div class="container">
+        <div class="rows">
+          <div class="col-sm-3">
+          </div>
+          <div class="col-sm-6">
+            <h1 class="content">Hello ITians!</h1>
+          </div>
+          <div class="col-sm-3">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="rows">
+          <div class="col-sm-12">
+            <h3 class="content">Welcome to our own class portal.</h3>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="rows">
+          <div class="col-sm-12">
+            <h4 class="content"><span style="color:red">Congratulations</span></h4><h5 style="color:red;text-align:center">on completing a year of College!<br><br><span style="color:red" class="glyphicon glyphicon-heart"></span></h5>
+          </div>
+          <div class="col-sm-12">
+            <h3>
+              <br><br>
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="rows">
+          <div class="col-sm-12">
+            <h5 class="content">We believed that the site needed a new look!<br>
+            So here it is!</h5>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <header>
       <nav class="teal">
         <div class="nav-wrapper">
           <a href="#" class="brand-logo">ITians</a>
-          <a href="#" data-activates="mobile-nav-version" class="button-collapse"><i class="material-notes">menu</i></a>
+          <a href="#" data-activates="mobile-nav-version" class="button-collapse"><i class="material-icons">menu</i></a>
 
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="/">Home</a></li>
             <li><a href="timetable">Timetable</a></li>
-            <li><a href="syllabus">Syllabus</a></li>
-            <li  class="active"><a href="notes">Notes</a></li>
+            <li class="active"><a href="syllabus">Syllabus</a></li>
+            <li><a href="notes">Notes</a></li>
             <li><a href="downloads">Downloads</a></li>
             <li><a href="contribute">Contribute</a></li>
           </ul>
@@ -46,18 +86,20 @@
 
             <li><div class="divider"></div></li>
 
-            <li><a href="/"><i class="material-notes">home</i>Home</a></li>
-            <li><a href="timetable"><i class="material-notes">schedule</i>Timetable</a></li>
-            <li><a href="syllabus"><i class="material-notes">view_list</i>Syllabus</a></li>
-            <li class="active"><a href="notes"><i class="material-notes">library_books</i>Notes</a></li>
-            <li><a href="downloads"><i class="material-notes">file_download</i>Downloads</a></li>
-            <li><a href="contribute"><i class="material-notes">star_rate</i>Contribute</a></li>
+            <li><a href="/"><i class="material-icons">home</i>Home</a></li>
+            <li><a href="timetable"><i class="material-icons">schedule</i>Timetable</a></li>
+            <li class="active"><a href="syllabus"><i class="material-icons">view_list</i>Syllabus</a></li>
+            <li><a href="notes"><i class="material-icons">library_books</i>Notes</a></li>
+            <li><a href="downloads"><i class="material-icons">file_download</i>Downloads</a></li>
+            <li><a href="contribute"><i class="material-icons">star_rate</i>Contribute</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
     <main>
+
+
     <div class="container">
       <div class="rows">
         <div class="col-sm-12">
@@ -88,13 +130,12 @@
         </div>
       </div>
     </div>
-
     </main>
 
     <footer class="page-footer center teal lighten-2">
       <div class="footer-copyright">
           <div class="container">
-          Handcrafted with <i class="footer-notes material-notes">music_note</i> and &nbsp;<i class="footer-notes material-notes">laptop_chromebook</i>
+          Handcrafted with <i class="footer-icons material-icons">music_note</i> and &nbsp;<i class="footer-icons material-icons">laptop_chromebook</i>
           </div>
         </div>
     </footer>

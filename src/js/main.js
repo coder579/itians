@@ -2,6 +2,7 @@
 $(window).on("load", function() {
   $("#preloader").delay(500).fadeOut("slow");
   $('body').css("overflow", "visible");
+
 });
 
 // On timetable page, determine action when class is selected
@@ -20,3 +21,11 @@ $('.button-collapse').sideNav({
     draggable: true
   }
 );
+
+function on() {
+document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+document.getElementById("overlay").style.display = "none";
+}

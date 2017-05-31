@@ -122,3 +122,20 @@ main {
   color:teal;
   text-align: center;
 }
+.notes_content{
+  color:teal;
+  font-weight:bold;
+  font-size:20px;
+  text-align:center;
+  text-align: center;
+  margin-left:30%;
+}
+
+#notes:hover{
+  transform:scale(1.1);
+  transition-duration: 1s;
+}
+#notes:not(:hover){
+  transform:scale(1);
+  transition-duration: 1s;
+}

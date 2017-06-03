@@ -10,9 +10,6 @@
     <title>Resource Portal for ITians</title>
 
     <!--Including materialize css, stylesheet, material icons and a google font-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -21,43 +18,36 @@
   <body>
 
     <!--This is the preloader-->
-    <div id="preloader">
-    </div>
+    <div id="preloader"></div>
+
     <div id="overlay" onclick="off()">
-      <div class="container">
-        <div class="rows">
-          <div class="col-sm-3">
-          </div>
-          <div class="col-sm-6">
-            <h1 class="content">Hello ITians!</h1>
-          </div>
-          <div class="col-sm-3">
+      <div class="container center">
+        <div class="row">
+          <div class="col s6 offset-s3">
+            <h1 class="teal-text">Hello ITians!</h1>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="rows">
-          <div class="col-sm-12">
-            <h3 class="content">Welcome to our own class portal.</h3>
+
+        <div class="row">
+          <div class="col s12">
+            <h3 class="teal-text">Welcome to our own class portal.</h3>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="rows">
-          <div class="col-sm-12">
-            <h4 class="content"><span style="color:red">Congratulations</span></h4><h5 style="color:red;text-align:center">on completing a year of College!<br><br><span style="color:red" class="glyphicon glyphicon-heart"></span></h5>
-          </div>
-          <div class="col-sm-12">
-            <h3>
+
+        <div class="row">
+          <div class="col s12">
+            <h4 class="red-text">Congratulations</h4>
+            <h5 class="red-text">
+              on completing a year of College!
               <br><br>
-            </h3>
+              <i class="material-icons yellow-text">&#xE8D0;</i>
+            </h5>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="rows">
-          <div class="col-sm-12">
-            <h5 class="content">We believed that the site needed a new look!<br>
+
+        <div class="row">
+          <div class="col s12">
+            <h5 class="teal-text">We believed that the site needed a new look!<br>
             So here it is!</h5>
           </div>
         </div>
@@ -100,53 +90,39 @@
     <main>
 
 
-    <div class="container">
-      <div class="rows">
-        <div class="col-sm-4">
-          <a href="timetable"><i id="icons" class="material-icons">today</i></a>
+    <div class="container center home-icons">
+      <div class="row">
+        <div class="col s12 m4">
+          <a href="timetable"><i class="material-icons">schedule</i></a>
         </div>
-        <div class="col-sm-4">
-          <a href="syllabus"><i id="icons" class="material-icons">library_books</i></a>
+        <div class="col s12 m4">
+          <a href="syllabus"><i class="material-icons">view_list</i></a>
         </div>
-        <div class="col-sm-4">
-          <a href="notes"><i id="icons" class="material-icons">assignment</i></a>
-        </div>
-      </div>
-      <div class="rows">
-        <div class="col-sm-12">
+        <div class="col s12 m4">
+          <a href="notes"><i class="material-icons">library_books</i></a>
         </div>
       </div>
-      <div class="rows">
-        <div class="col-sm-2">
-        </div>
-        <div class="col-sm-4">
-          <a href="downloads"><i id="icons" class="material-icons">play_for_work</i></a>
-        </div>
-        <div class="col-sm-4">
-          <a href="conrtibute"><i id="icons" class="material-icons">turned_in</i></a>
-        </div>
-        <div class="col-sm-2">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="rows">
-        <div class="col-sm-12">
 
+      <div class="row">
+        <div class="col s12 m4 offset-m2">
+          <a href="downloads"><i class="material-icons">file_download</i></a>
+        </div>
+        <div class="col s12 m4">
+          <a href="conrtibute"><i class="material-icons">turned_in</i></a>
         </div>
       </div>
     </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col s1 offset-s11">
+          <a href="javascript:void(0)"><i onclick="on()"><i id="info" class="material-icons">info_outline</i></a>
+        </div>
+      </div>
+    </div>
+
     </main>
-    <div class="container-box">
-      <div class="rows">
-        <div class="col-sm-11">
-        </div>
-        <div class="col-sm-1">
-        <a href="javascript:void(0)"><i onclick="on()"><i id="info" class="material-icons">info_outline</i></a>
-        <br>
-        </div>
-      </div>
-    </div>
+
     <footer class="page-footer center teal lighten-2">
       <div class="footer-copyright">
           <div class="container">

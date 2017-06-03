@@ -84,17 +84,17 @@ main {
   transform: translate(0, 30%);
 }
 
-#icons{
+.home-icons .material-icons{
   text-align: center;
   font-size:150px;
   color:teal;
 }
 
-#icons:hover{
+.home-icons .material-icons:hover{
   transform:scale(1.2);
   transition-duration: 1s;
 }
-#icons:not(:hover){
+.home-icons .material-icons:not(:hover){
   transform:scale(1);
   transition-duration: 1s;
 }
@@ -112,7 +112,7 @@ main {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255,255,255,0.96);
   z-index: 2;
   cursor: pointer;
 }

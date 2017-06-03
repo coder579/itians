@@ -72,7 +72,9 @@ main {
 }
 
 .page-footer {
+  position:relative;
   padding: 0;
+  bottom:0;
 }
 
 .footer-icons {
@@ -80,4 +82,59 @@ main {
   -ms-transform: translate(0, 50%); /* IE 9 */
   -webkit-transform: translate(0, 50%); /* Safari */
   transform: translate(0, 30%);
+}
+
+#icons{
+  text-align: center;
+  font-size:150px;
+  color:teal;
+}
+
+#icons:hover{
+  transform:scale(1.2);
+  transition-duration: 1s;
+}
+#icons:not(:hover){
+  transform:scale(1);
+  transition-duration: 1s;
+}
+#info{
+  font-size:20px;
+  color:teal;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,0.8);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.content{
+  color:teal;
+  text-align: center;
+}
+.notes_content{
+  color:teal;
+  font-weight:bold;
+  font-size:20px;
+  text-align:center;
+  text-align: center;
+  margin-left:35%;
+}
+
+#notes:hover{
+  transform:scale(1.1);
+  transition-duration: 1s;
+}
+#notes:not(:hover){
+  transform:scale(1);
+  transition-duration: 1s;
 }
